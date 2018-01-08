@@ -1,0 +1,12 @@
+  gem 'cucumber'
+  gem 'site_prism'
+  gem 'capybara'
+  gem 'rspec'
+  gem 'rspec-expectations'
+  gem 'selenium-webdriver'
+  gem 'pry-byebug'
+  gem 'poltergeist'
+  gem 'phantomjs'
+  gem 'activesupport'
+  gem 'chromedriver-helper'
+ 
