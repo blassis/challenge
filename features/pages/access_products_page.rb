@@ -1,2 +1,2 @@
-class AcessProducts < SitePrism::Page
+class AccessProducts < SitePrism::Page
 end

@@ -1,5 +1,4 @@
 class AutoCoveragesSelection < SitePrism::Page
-  element :text_coverage, '.t2m.resume__label.t--negative'
   element :button_next_step, '.narrative-form__field .button.button--primary.button--centered'
   elements :coverages_name_list, '.coverage__name'
   elements :coverages_switch_list, '.coverage__action-box'

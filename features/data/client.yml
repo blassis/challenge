@@ -1,0 +1,16 @@
+default:
+  name: ~full_name
+  phone: ~phone_number
+  email: ~generate_email
+  cpf: ~cpf
+  marital_status: ~marital_status
+  gender: ~gender
+  zip_code: '04538-133'
+  date_of_birth: ~date_of_birth
+  nationality: 'Brasil'
+  income: ~income
+  address_number: 222
+  coverages: ~coverages
+  assistances: ~assistances
+  email_youse: 'teste@youse.com'
+  password: '12345678'

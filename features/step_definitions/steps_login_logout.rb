@@ -9,7 +9,8 @@ end
 
 Quando(/^ele realiza login$/) do
   @login_page = LoginPage.new
-  @login_page.login
+  client = Client.new
+  @login_page.login(client.email_youse, client.password)
 end
 
 Então(/^ele vê a página inicial com seus dados$/) do

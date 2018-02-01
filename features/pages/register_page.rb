@@ -1,5 +1,4 @@
 class RegisterPage < SitePrism::Page
-
   element :sign_up_name, '#user_name'
   element :sign_up_email, '#user_email'
   element :sign_up_password, '#user_password'

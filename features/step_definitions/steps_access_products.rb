@@ -13,7 +13,7 @@ Quando(/^ele clicar no menu de Seguro Auto$/) do
 end
 
 Então(/^ele consegue visualizar a página correspondente à Auto$/) do
-  @access_product_auto = AcessProducts.new
+  @access_product_auto = AccessProducts.new
   expect(@access_product_auto.current_url).to include 'seguro-auto'
   expect(@access_product_auto.title).to eq('Seguro Auto Youse: O Seguro de Carro Online | Youse')
 end
@@ -23,7 +23,7 @@ Quando(/^ele clicar no menu de Seguro Home$/) do
 end
 
 Então(/^ele consegue visualizar a página correspondente à Home$/) do
-  @access_product_home = AcessProducts.new
+  @access_product_home = AccessProducts.new
   expect(@access_product_home.current_url).to include 'seguro-residencial'
   expect(@access_product_home.title).to eq('Seguro Residencial Youse: O Seguro Residência Online | Youse')
 end
@@ -33,7 +33,7 @@ Quando(/^ele clicar no menu de Seguro Life$/) do
 end
 
 Então(/^ele consegue visualizar a página correspondente à Life$/) do
-  @access_product_life = AcessProducts.new
+  @access_product_life = AccessProducts.new
   expect(@access_product_life.current_url).to include 'seguro-vida'
   expect(@access_product_life.title).to eq('Seguro Vida Youse: O Seguro de Vida Online | Youse')
 end
