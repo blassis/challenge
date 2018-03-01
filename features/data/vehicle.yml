@@ -1,0 +1,13 @@
+default:
+  make: 'BMW'
+  model: '220ITOURER'
+  year: '2018'
+  version: '220ITOURER ACTIVE FLEX 2.0 TB AUT. (Gasolina / Flex)'
+  brand_new: 'não é 0km'
+  usage_type: 'Particular'
+  insured_person: 'sou'
+  young_driver: ~young_driver
+  last_sinister: ~last_sinister
+  licence_plate: 'YOU-0000'
+  adapted: 'não possui'
+  armored: 'não é'

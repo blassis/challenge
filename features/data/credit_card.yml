@@ -1,0 +1,6 @@
+default:
+  card_number: '4111111111111111'
+  card_name: ~full_name
+  month: ~month
+  year: ~year
+  cvv: ~cvv

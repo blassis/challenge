@@ -9,4 +9,4 @@
   gem 'phantomjs'
   gem 'activesupport'
   gem 'chromedriver-helper'
- 
+  gem 'data_magic'

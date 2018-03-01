@@ -1,5 +1,4 @@
-class AutoLoader < SitePrism::Page
-
+class AutoLead < SitePrism::Page
   element :input_name, '#auto_order_flow_lead_person_data_lead_person_attributes_name'
   element :input_phone, '#auto_order_flow_lead_person_data_lead_person_attributes_phone'
   element :input_email, '#auto_order_flow_lead_person_data_lead_person_attributes_email'
@@ -12,5 +11,4 @@ class AutoLoader < SitePrism::Page
     input_email.set email
     btn_next_step.click
   end
-
 end

@@ -1,11 +1,11 @@
 Quando(/^realizar um cadastro$/) do
-  @name = 'Cucumber Test'
-
+  client = Client.new
+  @name = client.name
   @home_page.button_my_account
   login_page = LoginPage.new
   login_page.to_sign
   register_page = RegisterPage.new
-  register_page.register_user(@name, generate_email, '12345678', '12345678')
+  register_page.register_user(client.name, client.email, client.password, client.password)
 end
 
 Então(/^será redirecionado para a área logada$/) do
